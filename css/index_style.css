@@ -233,11 +233,26 @@ img.selected
   
     
 }
+
 .caption2 h2
 {
     font-weight: 500;
     position: relative;
     bottom: 20px;
 }
-
+.card{
+    float: left;
+    margin: 20px;;
+    border-radius: 3%;
+    padding: 40px;
+}
+.frst h1{
+    text-align: center;
+    padding: 15px;
+    
+}
+.clr
+{
+    clear: both;
+}
 
