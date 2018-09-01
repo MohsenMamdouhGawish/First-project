@@ -256,3 +256,74 @@ img.selected
     clear: both;
 }
 
+
+
+.member
+{
+    width: 25%;
+    border: solid 5px #fff;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.member img
+{
+    width: 100%;
+    transition-delay: 1s;
+}
+.member .caption
+{
+    background-color: rgba(42,63,85,0.7);
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+    opacity: 0;
+    
+}
+.member:hover .caption
+{
+    opacity: 1;
+    transform: rotate(-360deg);
+}
+.member:hover img
+{
+    transition: scale(1.2,1.2);
+    }
+
+.caption h2
+{
+    background-color: #2a3f55;
+    margin-top: 0px;
+    padding: 10px;
+    position: relative;
+    left: 120%;
+    transition: all 1s;
+    transition-delay: 2s;
+    
+}
+.caption p
+{
+    padding: 15px;
+    font-size: 18px;
+    position: relative;
+    left: 120%;
+    transition-delay: 2.5s;
+    
+}
+.member:hover .caption h2
+{
+    left: 0%;
+}
+.member:hover .caption p
+{
+    left: 0%;
+}
+
+
+
+
